@@ -5,16 +5,25 @@ add = 34 + 34
 sub = 45 - 90
 # multiply * 
 multiply = 56 * 78
+
+
+
 # Exponential ** 
-expo = 89**4
+expo = 2**3
+
+
 # Division 
 division = 78 / 2
+
+
 # Floor Division //
 # it does not give you point value
 floorDivision = 79//2
+
+
 # Modulus % 
 # it just give you reminder 
-modulus = 89 /2
+modulus = 89 % 2
 print("add : ",add)
 print("sub : ",sub)
 print("multiply : ",multiply)
