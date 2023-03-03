@@ -14,3 +14,4 @@ print(name[:8])
 print(name[-4:])
 # in that case we get Raz
 print(name[-4:-1])
+# afa
