@@ -22,3 +22,8 @@ for i in range(1,100):
 # it means it add step value to start value at every time
 for i in range(1,10,2):
     print(i)
+
+
+# print 5 table using for loop
+for i in range(11):
+    print("5 x",i,"=",5*i)
