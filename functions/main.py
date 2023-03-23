@@ -25,4 +25,16 @@ def isGreater(a,b):
         print(a,"is greater than",b)
     else:
         print(a,"is less than or equal to",b)    
-isGreater(9,5)        
+isGreater(9,5)  
+
+
+
+# Return Statement
+# The return statement is used to return the value of the expression back to the calling function 
+
+
+def getFullName(fName,sName,lName):
+    fullName= fName +" "+ sName +" " + lName
+    return fullName
+fullName = getFullName("Abubakar","Raza","Ansari")
+print("fullName:",fullName)
