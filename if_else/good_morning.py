@@ -5,4 +5,4 @@ if(getHour >= 5 and getHour <  12):
 elif(getHour >=12 and getHour < 18):
     print("Good Afternoon")
 else: 
-    print("Good Evening")        
+    print("Good Evening")
