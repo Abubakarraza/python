@@ -40,3 +40,11 @@ print(list2[1:])
 
 print(list1[2:7])
 # Note : it pick start index ele but not last index ele
+
+# jump in list 
+# Now it jump 2 
+print(list1[1:8:2])
+
+# if we pass list[:]
+# python consider it list[0:length of list]
+print(list1[:])
