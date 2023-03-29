@@ -40,6 +40,7 @@ print("index of 11 is",lst.index(11))
 
 
 # count 
+
 # Return the count of the number of items with the given value
 
 print("Count of 1 is :",lst.count(1))
@@ -56,6 +57,7 @@ print("newList:",newList)
 
 
 # insert 
+
 # This method insert an item at the given index,User has to specify index and item to be inserted within the insert method
 # Syntax: insert(index,item)
 
@@ -64,7 +66,17 @@ print("insert item:",lst)
 
 
 # extend
+
 # This method adds an entire list or any other collection datatype(set,tuple,dictionary) to the existing list. it will add items at the end of the list
 l=[100,200,300]
 lst.extend(l)
 print(lst)
+
+
+# Concat two list
+
+# you can simply concatenate two list to join two list
+a =[1,2,3,4]
+b = [5,6,7,8]
+c = a + b
+print("Concat list:",c)
