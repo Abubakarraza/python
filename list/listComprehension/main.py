@@ -12,11 +12,17 @@
 
 # Example# 1 :
 
-lst=[i for i in range(5)]
+lst = [i for i in range(5)]
 print(lst)
 
 
 # Example# 2 :
-lst1=[i*i for i in range(20) if i % 2 == 0]
+lst1 = [i * i for i in range(20) if i % 2 == 0]
 # it will all  print even number
 print(lst1)
+
+
+# Example# 3 :
+lst2 = [i*i for i in range(20) if i % 2 != 0]
+# it will all  print odd number
+print(lst2)
