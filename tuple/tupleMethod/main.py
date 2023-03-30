@@ -35,7 +35,7 @@ print("count:",tup4.count(1))
 
 print("index:",tup4.index(1))
 
-# len
+# len()
 # we get the length of tuple using len()
 
 print("length of tuple:",len(tup4))
