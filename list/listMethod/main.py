@@ -80,3 +80,11 @@ a =[1,2,3,4]
 b = [5,6,7,8]
 c = a + b
 print("Concat list:",c)
+
+
+# Pop 
+
+# Pop remove item from list in pop method we pass the index of item it is removed from list   if you did not pass any index it remove item from the end of list
+print("Before Pop:",a)
+a.pop(4)
+print("After Pop:",a)
