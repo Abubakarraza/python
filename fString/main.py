@@ -20,3 +20,23 @@ print(fullName.format("Raza","Abubakar"))
 
 
 # But here python solve our problem using f string where you pass variable (just like template literals in javascript)
+
+# F-string
+
+# It is a new string formatting mechanism introduced by the PEP 498. It is also known as literal string Interpolation or more commonly as f-string .(f character proceeding the string literal). The primary focus of this mechanism is to make the interpolation easier.
+
+
+# Example 
+
+profession = "Software developer"
+age = 19
+myName = "Abubakar Raza"
+about = f"Hello , my name is {myName},i am {age} year old and i am {profession}"
+
+print(about)
+
+# we can also do multiple task using f-string one more example 👇
+num1 = 12
+num2 = 10
+
+print(f"product of {num1} and {num2} is {num1 * num2}")
