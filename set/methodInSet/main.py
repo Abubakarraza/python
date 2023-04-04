@@ -23,3 +23,20 @@ print(fruits,fruits2)
 fruits2.update(fruits)
 print("fruits2:",fruits2)
 # in update method result will be update the fruits2 (example above 👆)
+
+
+# intersection() and intersection_update()
+
+# Intersection : intersection give the result of common set value in two set
+
+cities={"fsd","lhr","isb","karachi"}
+
+cities2={"lhr","isb","gjr","multan"}
+
+cities3 = cities.intersection(cities2)
+# the result will save in new var
+print("cities3:",cities3)
+
+cities.intersection_update(cities2)
+# it will update the cities
+print("cities:",cities)
