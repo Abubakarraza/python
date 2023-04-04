@@ -16,4 +16,4 @@ def factorial (n):
         return n * factorial(n-1)
 num=7
 print("number:",num)
-print("Factorial:",factorial(num))
+print("Factorial of ",num,"is",factorial(num))
