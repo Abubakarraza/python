@@ -73,3 +73,30 @@ print('color3:',color3)
 color.difference_update(color2)
 
 print("color:",color)
+
+
+
+# set Methods
+
+# There are several in built method used for the manipulation of set. They are explained below
+
+# isdisjoint():
+
+# The isdisjoint() method checks if items of given set are present in another set. This method return false if items are  present , else it return True
+
+num={1,3,4,5}
+num2={1,3}
+print("isDisjoint:",num.isdisjoint(num2))
+
+
+# issuperset():
+
+# The issuperset() method checks if all the items of a particular set are present in the original set. It returns True if all the items are present , else it return False
+
+no={1,2,3,4,5,6,7,8}
+
+no2={4,6,8,1}
+
+print("isSuperset:",no.issuperset(no2))
+
+# it return true because all items in no2 are present in no😊
