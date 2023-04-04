@@ -50,3 +50,9 @@ print("keys:",info.keys())
 # it return tuple of key value pair
 
 print("items:",info.items())
+
+
+# Accessing item using loop 
+
+for key, value in info.items():
+    print(f"The value of {key} is {value}")
