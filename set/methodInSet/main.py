@@ -131,3 +131,31 @@ numb.remove(9)
 print("after Remove:",numb)
 
 # The main difference between remove and discard is that, if we try to delete an item which is not present in set , then remove raises an error , whereas discard() does not raise any error
+
+
+# Pop()
+
+# This method removes the last items of the set but the catch is that we don't know which item gets popped 😁😂 as sets are unordered. However, you can access the popped item if you assign the pop() method to a variable
+
+item = numb.pop()
+print("after pop",numb)
+print("pop item:",item)
+
+
+# del 
+
+# del is not a method , rather it is a keyword which deletes the set entirely
+
+# del numb
+
+# print(numb)
+# i comment it because it delete numb variable 👆 😂😂😂
+
+
+# clear()
+
+# This method clears all items in the set and print an empty set.
+
+numb.clear()
+# it will be empty set as expected 😉
+print("numb after clear:",numb)
