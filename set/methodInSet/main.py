@@ -100,3 +100,34 @@ no2={4,6,8,1}
 print("isSuperset:",no.issuperset(no2))
 
 # it return true because all items in no2 are present in no😊
+
+
+# add()
+
+# if you want to add a single item to the set use the add() method.
+
+numb={1,3,4,5}
+numb.add(8)
+print("add number:",numb)
+
+
+# update()
+
+# if you want to add more than one item , simply create another set or any other iterable object(list,tuple,dictionary), and use the update() method to add it into the existing set
+
+numb2={6,7,9}
+
+numb.update(numb2)
+
+print("number:",numb)
+
+
+# remove()/discard()
+
+# We can use remove() and discard() method to remove items from the set
+
+numb.remove(9)
+
+print("after Remove:",numb)
+
+# The main difference between remove and discard is that, if we try to delete an item which is not present in set , then remove raises an error , whereas discard() does not raise any error
