@@ -159,3 +159,15 @@ print("pop item:",item)
 numb.clear()
 # it will be empty set as expected 😉
 print("numb after clear:",numb)
+
+
+# check if item exist
+
+# You can also check if an item exists in the set or not
+ 
+value ="pakistan" 
+
+if value in country:
+    print(f"yes {value} is exist 🎉✨")
+else:
+    print("oops , it is not exist😢😒")
