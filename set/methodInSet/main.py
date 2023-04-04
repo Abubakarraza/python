@@ -56,3 +56,20 @@ print("country3:",country3)
 
 country.symmetric_difference_update(country2)
 print("country:",country)
+
+
+# difference() and difference_update()
+
+# The difference() and difference_update() method prints only items that are only present in the original set and not in both the sets .The difference method returns a new set whereas difference_update() method return into the existing set from another set.
+
+color={"red","green","blue","yellow","black"}
+
+color2={"red","purple","yellow","brown"}
+
+color3=color.difference(color2)
+
+print('color3:',color3)
+
+color.difference_update(color2)
+
+print("color:",color)
