@@ -40,3 +40,19 @@ print("cities3:",cities3)
 cities.intersection_update(cities2)
 # it will update the cities
 print("cities:",cities)
+
+
+
+# Symmetric_difference() and symmetric_difference_update()
+
+# The symmetric difference and symmetric difference_update() method print only items that are not similar to both the sets. The symmetric_difference method returns a new set whereas symmetric_difference_update into the existing set from another set.
+
+country = {"pakistan","india","afghanistan","china"}
+country2={"india","afghanistan"}
+
+country3 = country.symmetric_difference(country2)
+
+print("country3:",country3)
+
+country.symmetric_difference_update(country2)
+print("country:",country)
