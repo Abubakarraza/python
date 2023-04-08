@@ -9,8 +9,8 @@ for index, item in enumerate(question):
     print(f"Question:{index + 1}",item)
     for i , y in enumerate(options[index]):
         print(i,":",y)
-    userAnswer = str(input("Your Answer:"))
-    if userAnswer == answers[index]:
+    userAnswer = int(input("Your Answer:"))
+    if options[index][userAnswer] == answers[index]:
         prize+=1000       
 if prize > 0:
   print(f"Hey,{name} you won {prize} prize money ✨🎉")
