@@ -9,7 +9,11 @@ for index, item in enumerate(question):
     print(f"Question:{index + 1}",item)
     for i , y in enumerate(options[index]):
         print(i,":",y)
-    userAnswer = int(input("Your Answer:"))
+    userAnswer = int(input("Enter your answer b/w 0-3:"))
+    if userAnswer < 0 or userAnswer > 3:
+        print("Invalid Answer")
+        continue
+
     if options[index][userAnswer] == answers[index]:
         prize+=1000       
 if prize > 0:
