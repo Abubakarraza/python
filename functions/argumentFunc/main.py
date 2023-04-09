@@ -15,7 +15,7 @@ name("Abubakar","")
 
 
 # 2: keyword Argument
-# We can provide argument with key = value the interpreter recognize the argument by the parameter name. Hence the order in which the argument are passed does not mattere 
+# We can provide argument with key = value the interpreter recognize the argument by the parameter name. Hence the order in which the argument are passed does not matter 
 def average(a=10,b=5):
     print("The average of ",a,"and",b,"is",(a+b)/2)
 average()
