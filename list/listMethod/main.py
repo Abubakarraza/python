@@ -86,5 +86,5 @@ print("Concat list:",c)
 
 # Pop remove item from list in pop method we pass the index of item it is removed from list   if you did not pass any index it remove item from the end of list
 print("Before Pop:",a)
-a.pop(4)
+a.pop(3)
 print("After Pop:",a)
