@@ -2,6 +2,7 @@
 
 
 # First Example
+
 age = int(input("Please type your age:"))
 if(age >= 18):
     print("You can drive")
@@ -10,6 +11,7 @@ else:
 
 
 # Second Example
+
 num = int(input("Please Enter any number:"))
 if(num < 0):
     print("Number is negative")
