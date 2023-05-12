@@ -15,6 +15,7 @@ print(name.format("software developer","Abubakar"))
 # you can solve this issue by passing number like 👇
 fullName = "Hello my firstname is  {1} and my second name is  {0}"
 print(fullName.format("Raza","Abubakar"))
+
 # This will solve the problem but this is not solution to because if we have more than 10 value to format in the string it is difficult to handle the hierarchy of it
 
 
