@@ -3,6 +3,7 @@
 # Tuples are immutable . hence if you want to remove ,add and change the items of tuple. then first must you convert tuple into list.Then perform operation on that list and convert back into tuple.
 
 countries = ("pakistan","saudi arabia","dubai","oman","turkey","qatar",'tes')
+
 print("before:",countries)
 lst = list(countries)
 lst.append("india")
